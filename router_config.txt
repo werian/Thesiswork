@@ -1,0 +1,12 @@
+hostname
+no ip domain lookup
+enable secret class
+banner motd #Admin Access only#
+line con 0
+password cisco
+login
+exit
+service password-encryption
+loopback
+ip
+no shut
